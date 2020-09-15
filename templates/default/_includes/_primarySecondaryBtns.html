@@ -1,0 +1,6 @@
+{% if block.primaryButton %}
+  {{ block.primaryButton.getLink({ class: 'btn btn-primary' }) }}
+{% endif %}
+{% if block.secondaryButton %}
+  {{ block.secondaryButton.getLink({ class: 'btn btn-secondary' }) }}
+{% endif %}

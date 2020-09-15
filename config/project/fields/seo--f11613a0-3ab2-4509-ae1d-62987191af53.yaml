@@ -1,0 +1,19 @@
+contentColumnType: text
+fieldGroup: 466cbcb0-558e-40dd-a7ec-438eec2b9815
+handle: seo
+instructions: 'By default, the SEO for this entry will be drawn from the page title, description and featured image fields. However you can override any of these using the SEO fields below.'
+name: SEO
+searchable: true
+settings:
+  elementDisplayPreviewType: google
+  facebookTabEnabled: ''
+  generalEnabledFields:
+    - seoTitle
+    - seoDescription
+    - seoImage
+  generalTabEnabled: '1'
+  sitemapTabEnabled: ''
+  twitterTabEnabled: ''
+translationKeyFormat: null
+translationMethod: none
+type: nystudio107\seomatic\fields\SeoSettings

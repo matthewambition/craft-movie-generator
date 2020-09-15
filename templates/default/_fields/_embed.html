@@ -1,0 +1,11 @@
+{% set sectionContent = block.sectionContent.all() %}
+
+{% for block in sectionContent %}
+    
+  <div class="embed-conatiner col-md {% if option.fullWidth %}padding-{{ option.padding }}{% endif %}">
+    <div class="embed-responsive {{ block.aspectRatio }}">
+      <iframe class="embed-responsive-item" src="{{ block.embedUrl }}" allowfullscreen></iframe>
+    </div>
+  </div>
+      
+{% endfor %}

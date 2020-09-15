@@ -1,0 +1,11 @@
+enableVersioning: true
+handle: elements
+name: Elements
+propagationMethod: all
+siteSettings:
+  5caa5c6f-3b72-48ac-b3fd-7f170b965d3d:
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+type: channel

@@ -1,0 +1,43 @@
+field: 38a113f2-a291-41e2-b9c2-44d10e17e002
+fieldLayouts:
+  6efcfc94-fd7d-4807-a0f6-4e797743e770:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 7ab514cf-1e7d-4325-be9f-9b5a5b1f1a39
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  7ab514cf-1e7d-4325-be9f-9b5a5b1f1a39:
+    contentColumnType: string
+    fieldGroup: null
+    handle: elements
+    instructions: ''
+    name: Elements
+    searchable: true
+    settings:
+      allowSelfRelations: false
+      limit: ''
+      localizeRelations: false
+      selectionLabel: 'Add an element'
+      showSiteMenu: true
+      source: null
+      sources:
+        - 'section:9a284186-46b9-4202-8d9f-c01ffb5ed9a2'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+handle: elements
+name: Elements
+sortOrder: 10

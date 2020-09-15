@@ -1,0 +1,349 @@
+field: 5f7a568e-71f3-4967-b788-bc1437b17478
+fieldLayouts:
+  a58c0774-370a-448b-a16d-4c67e3df6238:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 67795519-766c-4277-8008-da13a5798b0d
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: cce929cd-290c-46e0-9c8e-dadd189057b4
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 4391f0bd-3fa7-4b09-9603-97f0f2d62be3
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 9a8f2889-0718-478e-a4f4-9e43526f1cf5
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: ba104f9c-1c70-4635-9429-65f6bb0fe125
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 174aa99f-6d73-4798-89c2-30c06be3ce4d
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: a5fbc5d4-ef89-4e92-9840-16b7b36089cb
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  174aa99f-6d73-4798-89c2-30c06be3ce4d:
+    contentColumnType: text
+    fieldGroup: null
+    handle: sectionId
+    instructions: ''
+    name: 'Section ID'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  4391f0bd-3fa7-4b09-9603-97f0f2d62be3:
+    contentColumnType: string
+    fieldGroup: null
+    handle: backgroundColour
+    instructions: ''
+    name: 'Background Colour'
+    searchable: false
+    settings:
+      optgroups: true
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - White
+            -
+              - value
+              - bg-white
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Light
+            -
+              - value
+              - bg-light
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Primary
+            -
+              - value
+              - bg-primary
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Secondary
+            -
+              - value
+              - bg-secondary
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Tertiary
+            -
+              - value
+              - bg-tertiary
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Dark
+            -
+              - value
+              - bg-dark
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  67795519-766c-4277-8008-da13a5798b0d:
+    contentColumnType: string
+    fieldGroup: null
+    handle: verticalAlignment
+    instructions: ''
+    name: 'Vertical Alignment'
+    searchable: false
+    settings:
+      optgroups: true
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Top
+            -
+              - value
+              - align-items-start
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Middle
+            -
+              - value
+              - align-items-center
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Bottom
+            -
+              - value
+              - align-items-end
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  9a8f2889-0718-478e-a4f4-9e43526f1cf5:
+    contentColumnType: string
+    fieldGroup: null
+    handle: backgroundImage
+    instructions: ''
+    name: 'Background Image'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowedKinds:
+        - image
+      defaultUploadLocationSource: 'volume:244c8899-c0b5-46f0-b74e-f81a9af913b2'
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      restrictFiles: '1'
+      selectionLabel: ''
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: true
+      singleUploadLocationSource: 'volume:244c8899-c0b5-46f0-b74e-f81a9af913b2'
+      singleUploadLocationSubpath: ''
+      source: null
+      sources:
+        - 'volume:244c8899-c0b5-46f0-b74e-f81a9af913b2'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  a5fbc5d4-ef89-4e92-9840-16b7b36089cb:
+    contentColumnType: text
+    fieldGroup: null
+    handle: sectionClass
+    instructions: ''
+    name: 'Section Class'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  ba104f9c-1c70-4635-9429-65f6bb0fe125:
+    contentColumnType: boolean
+    fieldGroup: null
+    handle: textLight
+    instructions: ''
+    name: 'Text Light'
+    searchable: false
+    settings:
+      default: false
+      offLabel: null
+      onLabel: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Lightswitch
+  cce929cd-290c-46e0-9c8e-dadd189057b4:
+    contentColumnType: string
+    fieldGroup: null
+    handle: padding
+    instructions: ''
+    name: 'Section Padding'
+    searchable: false
+    settings:
+      optgroups: true
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - None
+            -
+              - value
+              - none
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Small
+            -
+              - value
+              - small
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Normal
+            -
+              - value
+              - normal
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Large
+            -
+              - value
+              - large
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Full
+            -
+              - value
+              - full
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown

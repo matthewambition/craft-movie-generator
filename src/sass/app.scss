@@ -1,0 +1,37 @@
+/*!
+* Ambition Craft Boilerplate - Utilising Bootstrap 4.5.x
+*/
+
+// Set up custom variables and mixins
+@import "base/variables";
+@import "base/mixins";
+
+// Bootstrap Kitchen Sink
+// If a lighter version is needed, pull in each individual element from the .scss file below
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Base
+@import "base/fonts";
+@import "base/mixins";
+@import "base/typography";
+
+// Vendor
+// @import "../../node_modules/slick-carousel/slick/slick";
+
+// Layout
+@import "layout/structure";
+@import "layout/header";
+@import "layout/footer";
+
+// Components
+@import "components/accordion";
+@import "components/banner";
+@import "components/buttons";
+@import "components/call-to-action";
+@import "components/columns";
+@import "components/embed";
+@import "components/feature";
+@import "components/forms";
+@import "components/spotlights";
+@import "components/testimonials";
+@import "components/tooltips";

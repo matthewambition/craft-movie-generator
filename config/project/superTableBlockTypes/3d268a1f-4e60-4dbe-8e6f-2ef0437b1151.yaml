@@ -1,0 +1,484 @@
+field: f3ffe775-7f4e-455c-a73a-45f44e0f4757
+fieldLayouts:
+  d891d1e1-3a38-4978-9d8c-b9d4216a5e32:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: a9047d74-32be-4779-9bf0-b70dd963efd7
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 2fddcf64-f09d-4783-8520-deecd7cd65d6
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 701a64b6-b19b-4a85-a182-e33ad045cfa3
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: edd35aaf-1568-45d5-8a6f-938e74370edf
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 562b5f18-5a95-4564-90ff-6234b054abf4
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 02ecde5d-58c5-4daf-8624-72e1fa8a93eb
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: ab65d7e0-3033-4346-945c-abb10f7511ae
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  02ecde5d-58c5-4daf-8624-72e1fa8a93eb:
+    contentColumnType: string
+    fieldGroup: null
+    handle: backgroundImage
+    instructions: ''
+    name: 'Background Image'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowedKinds:
+        - image
+      defaultUploadLocationSource: 'volume:244c8899-c0b5-46f0-b74e-f81a9af913b2'
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      restrictFiles: '1'
+      selectionLabel: ''
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: true
+      singleUploadLocationSource: 'volume:244c8899-c0b5-46f0-b74e-f81a9af913b2'
+      singleUploadLocationSubpath: ''
+      source: null
+      sources:
+        - 'volume:244c8899-c0b5-46f0-b74e-f81a9af913b2'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  2fddcf64-f09d-4783-8520-deecd7cd65d6:
+    contentColumnType: string
+    fieldGroup: null
+    handle: columnWidth
+    instructions: ''
+    name: 'Column Width'
+    searchable: false
+    settings:
+      optgroups: true
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Organic
+            -
+              - value
+              - col-lg
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - 'Span 12'
+            -
+              - value
+              - col-md-12
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Span 11'
+            -
+              - value
+              - col-md-11
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Span 10'
+            -
+              - value
+              - col-md-10
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Span 9'
+            -
+              - value
+              - col-md-9
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Span 8'
+            -
+              - value
+              - col-md-8
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Span 7'
+            -
+              - value
+              - col-md-7
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Span 6'
+            -
+              - value
+              - col-md-6
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Span 5'
+            -
+              - value
+              - col-md-5
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Span 4'
+            -
+              - value
+              - col-md-4
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Span 3'
+            -
+              - value
+              - col-md-3
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Span 2'
+            -
+              - value
+              - col-md-2
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Span 1'
+            -
+              - value
+              - col-md-1
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  562b5f18-5a95-4564-90ff-6234b054abf4:
+    contentColumnType: string
+    fieldGroup: null
+    handle: backgroundColour
+    instructions: ''
+    name: 'Background Colour'
+    searchable: false
+    settings:
+      optgroups: true
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Default
+            -
+              - value
+              - bg-transparent
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - White
+            -
+              - value
+              - bg-white
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Light
+            -
+              - value
+              - bg-light
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Primary
+            -
+              - value
+              - bg-primary
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Secondary
+            -
+              - value
+              - bg-secondary
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Tertiary
+            -
+              - value
+              - bg-tertiary
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Dark
+            -
+              - value
+              - bg-dark
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  701a64b6-b19b-4a85-a182-e33ad045cfa3:
+    contentColumnType: string
+    fieldGroup: null
+    handle: columnPadding
+    instructions: ''
+    name: 'Column Padding'
+    searchable: false
+    settings:
+      optgroups: true
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - None
+            -
+              - value
+              - p-0
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Normal
+            -
+              - value
+              - p-3
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Thick
+            -
+              - value
+              - p-5
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  a9047d74-32be-4779-9bf0-b70dd963efd7:
+    contentColumnType: text
+    fieldGroup: null
+    handle: columnContent
+    instructions: ''
+    name: 'Column Content'
+    searchable: true
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      cleanupHtml: true
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: ''
+      purifyHtml: '1'
+      redactorConfig: Standard.json
+      removeEmptyTags: ''
+      removeInlineStyles: ''
+      removeNbsp: ''
+      showHtmlButtonForNonAdmins: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: true
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  ab65d7e0-3033-4346-945c-abb10f7511ae:
+    contentColumnType: boolean
+    fieldGroup: null
+    handle: textLight
+    instructions: ''
+    name: 'Text Light'
+    searchable: false
+    settings:
+      default: false
+      offLabel: null
+      onLabel: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Lightswitch
+  edd35aaf-1568-45d5-8a6f-938e74370edf:
+    contentColumnType: string
+    fieldGroup: null
+    handle: contentAlignment
+    instructions: ''
+    name: 'Content Alignment'
+    searchable: false
+    settings:
+      optgroups: true
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - 'Align Left'
+            -
+              - value
+              - text-left
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - 'Align Center'
+            -
+              - value
+              - text-center
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Align Right'
+            -
+              - value
+              - text-right
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown

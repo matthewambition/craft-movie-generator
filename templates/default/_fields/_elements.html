@@ -1,0 +1,4 @@
+{% set entries = block.elements.all() %}
+{% for entry in entries %}
+  {% include "_fields/_contentBuilder" %}
+{% endfor %}

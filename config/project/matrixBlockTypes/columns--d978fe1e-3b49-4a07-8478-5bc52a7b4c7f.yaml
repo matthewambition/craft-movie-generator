@@ -1,0 +1,177 @@
+field: 38a113f2-a291-41e2-b9c2-44d10e17e002
+fieldLayouts:
+  171c3563-09d1-444f-8436-fed611366cf7:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: f3ffe775-7f4e-455c-a73a-45f44e0f4757
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: e48f1d2f-9b9e-44ea-b85c-cbf4a8c0373c
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  e48f1d2f-9b9e-44ea-b85c-cbf4a8c0373c:
+    contentColumnType: string
+    fieldGroup: null
+    handle: sectionOptions
+    instructions: ''
+    name: 'Section Options'
+    searchable: false
+    settings:
+      columns:
+        __assoc__:
+          -
+            - 81ff0268-4939-4702-9cd0-8f7ae0eebe9a
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 520435a7-5b4e-43cc-ad17-0b5d43ebf127
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - ed49068f-d7d5-40f0-94ae-78306dbef025
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 33bc2592-f44b-4aa4-9fc9-a23089d45f0f
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 99becc6b-78b8-4761-b8b0-2763995f87ea
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 8d958cae-81d7-4915-bf41-58cd070a4bf3
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 27724e67-bfbb-4948-8c6e-063e5ae35f27
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - c3f9098d-01e9-413c-86a9-8912f752d04a
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+      contentTable: '{{%stc_2_sectionoptions}}'
+      fieldLayout: row
+      maxRows: '1'
+      minRows: '1'
+      placeholderKey: null
+      propagationMethod: all
+      selectionLabel: ''
+      staticField: '1'
+    translationKeyFormat: null
+    translationMethod: site
+    type: verbb\supertable\fields\SuperTableField
+  f3ffe775-7f4e-455c-a73a-45f44e0f4757:
+    contentColumnType: string
+    fieldGroup: null
+    handle: sectionContent
+    instructions: ''
+    name: 'Section Content'
+    searchable: true
+    settings:
+      columns:
+        __assoc__:
+          -
+            - a9047d74-32be-4779-9bf0-b70dd963efd7
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 2fddcf64-f09d-4783-8520-deecd7cd65d6
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 701a64b6-b19b-4a85-a182-e33ad045cfa3
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - edd35aaf-1568-45d5-8a6f-938e74370edf
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 562b5f18-5a95-4564-90ff-6234b054abf4
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 02ecde5d-58c5-4daf-8624-72e1fa8a93eb
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - ab65d7e0-3033-4346-945c-abb10f7511ae
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+      contentTable: '{{%stc_2_sectioncontent}}'
+      fieldLayout: row
+      maxRows: ''
+      minRows: '1'
+      placeholderKey: null
+      propagationMethod: all
+      selectionLabel: 'Add a column'
+      staticField: ''
+    translationKeyFormat: null
+    translationMethod: site
+    type: verbb\supertable\fields\SuperTableField
+handle: columns
+name: Columns
+sortOrder: 4

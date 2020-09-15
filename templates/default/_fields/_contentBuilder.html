@@ -1,0 +1,51 @@
+{#
+ # Content Builder Setup
+ # ------------------------------------------------------------------------------------------------
+ # With the exception of banners and custom, all blocks follow the same bootstrap grid principles
+ # and utilise the same naming conventions for section options.
+ # ------------------------------------------------------------------------------------------------
+-#}
+
+{% for block in entry.contentBuilder.all() %}
+
+  {% if block.type == "banner" or block.type == "elements" %}
+
+    {% include "_fields/_" ~ block.type %}
+
+  {% elseif block.type == "custom" %}
+
+    {{ block.customCode|raw }}
+
+  {% else %}
+
+    {% set options = block.sectionOptions.all() %}
+
+    {% for option in options %}
+
+      {% set img = option.backgroundImage.one() %}
+
+      {% if img|length %}
+        {% set imgId = img.id %}
+        {% import "_macros/_imgStyling" as imgStyles %}
+      {% endif %}
+
+      <section id="{{ option.sectionId }}" class="section-{{ block.type }} padding-{{ option.padding }} {% if option.backgroundColour %}{{ option.backgroundColour }}{% else %}bg-light{% endif %} {% if option.textLight %}text-white{% else %}text-dark{% endif %} {{ option.sectionClass }}" {% if img %}style="{{ imgStyles.setStyles(imgId) }}"{% endif %}>
+        <div class="container{% if option.fullWidth %}-fluid{% endif %}">
+          {% if block.sectionIntroduction %}
+          <div class="row justify-content-center mb-4">
+            <div class="col-md-9 text-center">
+              {{ block.sectionIntroduction }}
+            </div>
+          </div>
+          {% endif %}
+          <div class="row justify-content-center {{ option.verticalAlignment is defined ? option.verticalAlignment }}">
+            {% include "_fields/_" ~ block.type %}
+          </div>
+        </div>
+      </section>
+
+    {% endfor %}
+
+  {% endif %}
+
+{% endfor %}

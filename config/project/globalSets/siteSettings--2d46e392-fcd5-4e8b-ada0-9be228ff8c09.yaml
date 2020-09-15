@@ -1,0 +1,54 @@
+fieldLayouts:
+  564c77c2-ca5d-4e93-97cf-e2b6a54d4974:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 6b8610a0-6365-491b-86c6-505e6ac845ee
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 5bcc0b70-1178-4270-8fc6-e5e967b03c57
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 205587fb-1156-4a7c-9146-e7ca32144e5a
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: b2843ecd-e5d2-4ea8-a720-b227b4c717f9
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: b315265d-d82b-4c19-854f-dbadf2e20d11
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Footer Section'
+        sortOrder: 1
+handle: siteSettings
+name: 'Site Settings'

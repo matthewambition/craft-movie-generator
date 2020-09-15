@@ -1,0 +1,29 @@
+{% set sectionContent = block.sectionContent.all() %}
+
+{% for block in sectionContent %}
+
+  {% set textWidth = "col-md-9" %}
+  {% set buttonWidth = "col-md-9" %}
+  {% if option.inlineButtons %}
+    {% set textWidth = "col-md-9" %}
+    {% set buttonWidth = "col-md-3" %}
+  {% endif %}
+  {% if not option.inlineButtons and option.alignCenter %}
+    {% set textWidth = "col-md-9" %}
+    {% set buttonWidth = "col-md-9" %}
+  {% endif %}
+ 
+  <div class="cta-text {{ textWidth }} {% if option.alignCenter %}text-center{% else %}text-left{% endif %}">
+    <h2>{{ block.ctaTitle|raw }}</h2>
+    <div class="lead">
+      {{ block.ctaOverview }}
+    </div>
+  </div>
+  
+  {% if block.primaryButton or block.secondaryButton %}
+    <div class="cta-buttons {{ buttonWidth }} {% if option.alignCenter %}text-center{% else %}{% if option.inlineButtons %}text-right{% else %}text-left{% endif %}{% endif %}">
+      {% include "_includes/_primarySecondaryBtns" %}
+    </div>
+  {% endif %}
+  
+{% endfor %}

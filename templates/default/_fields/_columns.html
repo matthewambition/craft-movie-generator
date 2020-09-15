@@ -1,0 +1,11 @@
+{% set sectionContent = block.sectionContent.all() %}
+{% for block in sectionContent %}
+  {% set img = block.backgroundImage.one() %}
+  {% if img|length %}
+    {% set imgId = img.id %}
+    {% import "_macros/_imgStyling" as imgStyles %}
+  {% endif %}
+  <div class="{{ block.backgroundColour }} {{ block.columnWidth }} {{ block.contentAlignment }} {{ block.columnPadding }} {% if block.textLight %}text-white{% endif %}" {% if img %}style="{{ imgStyles.setStyles(imgId) }}"{% endif %}>
+    {{ block.columnContent }}
+  </div>
+{% endfor %}

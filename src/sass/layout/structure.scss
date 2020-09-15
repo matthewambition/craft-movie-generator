@@ -1,0 +1,71 @@
+// Global Structure Styles
+// ******************************************************************************
+
+// @include media-breakpoint-down(xs) {  }
+// @include media-breakpoint-up(sm) {  }
+// @include media-breakpoint-up(md) {  }
+// @include media-breakpoint-up(lg) {  }
+// @include media-breakpoint-up(xl) {  }
+
+// Force height to 100% to create sticky footer
+//
+html {
+  height: 100% !important;
+}
+
+body,
+.site-wrapper {
+  display: flex!important;
+  flex-direction: column!important;
+  height: 100%!important;
+}
+
+main {
+  section:first-of-type {
+    > .container,
+    > .container-fluid {
+      margin-top: 60px;
+    }
+  }
+}
+
+// Section Paddings
+//
+.padding-full {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  padding: 120px 0;
+
+  .container-fluid & {
+    padding: 120px;
+  }
+}
+
+.padding-large {
+  padding: 120px 0;
+
+  .container-fluid & {
+    padding: 120px;
+  }
+}
+
+.padding-normal {
+  padding: 50px 0;
+
+  .container-fluid & {
+    padding: 50px;
+  }
+}
+
+.padding-small {
+  padding: 25px 0;
+
+  .container-fluid & {
+    padding: 25px;
+  }
+}
+
+.padding-none {
+  padding: 0;
+}

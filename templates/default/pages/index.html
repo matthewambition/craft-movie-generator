@@ -1,0 +1,13 @@
+{#
+ # Pages template
+ # ------------------------
+-#}
+
+{% extends "_layouts/site" %}
+{% set bodyClass = entry.slug %}
+
+{% block main %}
+  {% if entry.contentBuilder %}
+    {% include "_fields/_contentBuilder" %}
+  {% endif %} 
+{% endblock %}

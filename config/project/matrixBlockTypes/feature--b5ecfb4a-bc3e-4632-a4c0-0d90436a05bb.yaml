@@ -1,0 +1,177 @@
+field: 38a113f2-a291-41e2-b9c2-44d10e17e002
+fieldLayouts:
+  655ca48c-c132-46c0-96ef-39f3a2f2f04a:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: eaacbc42-0903-4ca3-8369-238b06369056
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 5f7a568e-71f3-4967-b788-bc1437b17478
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  5f7a568e-71f3-4967-b788-bc1437b17478:
+    contentColumnType: string
+    fieldGroup: null
+    handle: sectionOptions
+    instructions: ''
+    name: 'Section Options'
+    searchable: false
+    settings:
+      columns:
+        __assoc__:
+          -
+            - 67795519-766c-4277-8008-da13a5798b0d
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - cce929cd-290c-46e0-9c8e-dadd189057b4
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 4391f0bd-3fa7-4b09-9603-97f0f2d62be3
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 9a8f2889-0718-478e-a4f4-9e43526f1cf5
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - ba104f9c-1c70-4635-9429-65f6bb0fe125
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 174aa99f-6d73-4798-89c2-30c06be3ce4d
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - a5fbc5d4-ef89-4e92-9840-16b7b36089cb
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+      contentTable: '{{%stc_3_sectionoptions}}'
+      fieldLayout: row
+      maxRows: '1'
+      minRows: '1'
+      placeholderKey: null
+      propagationMethod: all
+      selectionLabel: ''
+      staticField: '1'
+    translationKeyFormat: null
+    translationMethod: site
+    type: verbb\supertable\fields\SuperTableField
+  eaacbc42-0903-4ca3-8369-238b06369056:
+    contentColumnType: string
+    fieldGroup: null
+    handle: sectionContent
+    instructions: ''
+    name: 'Section Content'
+    searchable: true
+    settings:
+      columns:
+        __assoc__:
+          -
+            - 513406b5-11df-4b2a-abd0-262d142fe64c
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 40577bd7-473f-4e7a-987f-4822d9b473f1
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 18ceb574-dcea-4221-b885-d3c8d7f0a9dd
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 6754a069-16ab-43bb-9183-f2a8e578b521
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 20544c55-5cc5-43b3-ba4a-d37a67ea6bb5
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - e2d83421-7888-47f3-a11a-3f3e395981b6
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 02a2ba15-a889-402a-b69a-a45967ec1948
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 092e07d6-6a3e-4501-a1cc-8ae6d9974e40
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+      contentTable: '{{%stc_3_sectioncontent}}'
+      fieldLayout: row
+      maxRows: ''
+      minRows: ''
+      placeholderKey: null
+      propagationMethod: all
+      selectionLabel: ''
+      staticField: '1'
+    translationKeyFormat: null
+    translationMethod: site
+    type: verbb\supertable\fields\SuperTableField
+handle: feature
+name: Feature
+sortOrder: 2

@@ -1,0 +1,18 @@
+contentColumnType: text
+fieldGroup: 466cbcb0-558e-40dd-a7ec-438eec2b9815
+handle: description
+instructions: 'Add a short description for this entry. Content for this field will be used for page listings and SEO.'
+name: Description
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: 250
+  code: ''
+  columnType: text
+  initialRows: '2'
+  multiline: '1'
+  placeholder: ''
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

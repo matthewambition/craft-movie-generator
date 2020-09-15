@@ -1,0 +1,33 @@
+field: 38a113f2-a291-41e2-b9c2-44d10e17e002
+fieldLayouts:
+  cfcb7e81-2116-4bbc-99ed-c6eb90f1dfb4:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: ad5a5a21-d9f8-4a7c-b30f-7945b71d065c
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  ad5a5a21-d9f8-4a7c-b30f-7945b71d065c:
+    contentColumnType: text
+    fieldGroup: null
+    handle: customCode
+    instructions: 'Go nuts!'
+    name: 'Custom Code'
+    searchable: true
+    settings:
+      mode: htmlmixed
+    translationKeyFormat: null
+    translationMethod: none
+    type: luwes\codemirror\fields\CodeMirrorField
+handle: custom
+name: Custom
+sortOrder: 11

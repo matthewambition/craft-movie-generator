@@ -1,0 +1,10 @@
+{% macro setStyles(img) %}
+{% set img = craft.assets().id(img).one() %}
+{% set imgStyles = 'background-image: url(' ~ img.getUrl("background") ~ '); background-size: cover;'|raw %}
+{% if img.hasFocalPoint %}
+{% set x = img.focalPoint | first * 100 ~ '%' %}
+{% set y = img.focalPoint | last * 100 ~ '%' %}
+{% set imgStyles = imgStyles ~ ' background-position: ' ~ [x, y]|join(' ') %}
+{% endif %}
+{{ imgStyles }}
+{% endmacro %}

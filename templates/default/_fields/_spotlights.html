@@ -1,0 +1,62 @@
+{% set sectionContent = block.sectionContent.all() %}
+
+{% set type = false %}
+{% if option.listStyle %}
+  {% set type = true %}
+{% endif %}
+
+{% for block in sectionContent %}
+
+  {% set count = loop.length %}
+  {% set colWidth = 12 / count %}
+  {% set colClass = "col-md" %}
+  {% set imgWidth = "w-75" %}
+ 
+  {% if count == 2 %}
+    {% set colClass = "col-sm" %}
+  {% endif %}
+  
+  {% if count == 4 %}
+    {% set colClass = "col-sm-6 col-md-3" %}
+  {% endif %}
+
+  {% if count == 6 %}
+    {% set colClass = "col-sm-6 col-md-4 col-lg-2" %}
+  {% endif %}
+  
+  {% if count > 3 %}
+    {% set imgWidth = "w-100" %}
+  {% endif %}
+  
+  {% if type %}
+    {% set colClass = "col-lg-9" %}
+  {% endif %}
+  
+  {% set img = block.spotlightImage.one() %}
+  
+  <div class="spotlight-item {{ colClass }} my-3 my-lg-0 text-center ">
+    
+    {% if type %}<div class="row my-2">{% endif %}
+    
+    {% if img %}
+    <div class="spotlight-media {% if type %}col-3 ml-auto{% else %}{{ imgWidth }} mx-auto{% endif %} mb-3">
+      <img src="{{ img.getUrl('spotlightStandard') }}" alt="{{ img.title }}" class="img-fluid">
+    </div>
+    {% endif %}
+    
+    <div class="spotlight-text {% if type %}col-9 text-left{% endif %}">
+      <h4>{{ block.spotlightTitle|raw }}</h4>
+      <p>{{ block.spotlightOverview|raw }}<p>
+      
+      {% if block.spotlightLink %}
+        <div class="cta-button-group">
+          {{ block.spotlightLink.getLink({ class: 'btn btn-primary' }) }}
+        </div>
+      {% endif %}
+    </div>
+    
+    {% if type %}</div>{% endif %}
+      
+  </div>
+  
+{% endfor %}

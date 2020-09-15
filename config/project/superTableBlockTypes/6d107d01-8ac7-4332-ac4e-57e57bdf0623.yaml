@@ -1,0 +1,320 @@
+field: 750bf8a5-d885-4e91-b6fc-f2a61b8bed05
+fieldLayouts:
+  fbabe4b6-1a43-40e2-852b-bc7858a0a14f:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: f0b41dad-b329-42a7-ab95-b0e4fb9192a8
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: befbd4ae-36a4-4ce5-880e-52249518544d
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 5a040c37-5377-4d30-b7f3-b3092a8b2571
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: ba1dc330-3e8d-4476-ab2f-8e49e3df5a12
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 81785d0b-7109-417a-8045-93379aa06e06
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: e2abd5ee-fc76-4bd1-bea0-bcbaed948d34
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 3e69ffef-aed6-4b84-aa1c-8142a37a37e9
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  3e69ffef-aed6-4b84-aa1c-8142a37a37e9:
+    contentColumnType: text
+    fieldGroup: null
+    handle: sectionClass
+    instructions: ''
+    name: 'Section Class'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  5a040c37-5377-4d30-b7f3-b3092a8b2571:
+    contentColumnType: string
+    fieldGroup: null
+    handle: padding
+    instructions: ''
+    name: 'Banner Padding'
+    searchable: false
+    settings:
+      optgroups: true
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - None
+            -
+              - value
+              - none
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Small
+            -
+              - value
+              - small
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Normal
+            -
+              - value
+              - normal
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Large
+            -
+              - value
+              - large
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Full
+            -
+              - value
+              - full
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  81785d0b-7109-417a-8045-93379aa06e06:
+    contentColumnType: boolean
+    fieldGroup: null
+    handle: textLight
+    instructions: ''
+    name: 'Text Light'
+    searchable: false
+    settings:
+      default: false
+      offLabel: null
+      onLabel: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Lightswitch
+  ba1dc330-3e8d-4476-ab2f-8e49e3df5a12:
+    contentColumnType: string
+    fieldGroup: null
+    handle: backgroundColour
+    instructions: ''
+    name: 'Background Colour'
+    searchable: false
+    settings:
+      optgroups: true
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - White
+            -
+              - value
+              - bg-white
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Light
+            -
+              - value
+              - bg-light
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Primary
+            -
+              - value
+              - bg-primary
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Secondary
+            -
+              - value
+              - bg-secondary
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Tertiary
+            -
+              - value
+              - bg-tertiary
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Dark
+            -
+              - value
+              - bg-dark
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  befbd4ae-36a4-4ce5-880e-52249518544d:
+    contentColumnType: string
+    fieldGroup: null
+    handle: bannerStyle
+    instructions: ''
+    name: 'Banner Style'
+    searchable: false
+    settings:
+      optgroups: true
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Standard
+            -
+              - value
+              - banner-standard
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Centered
+            -
+              - value
+              - banner-centered
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  e2abd5ee-fc76-4bd1-bea0-bcbaed948d34:
+    contentColumnType: text
+    fieldGroup: null
+    handle: sectionId
+    instructions: ''
+    name: 'Section ID'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  f0b41dad-b329-42a7-ab95-b0e4fb9192a8:
+    contentColumnType: boolean
+    fieldGroup: null
+    handle: fullWidth
+    instructions: ''
+    name: 'Full Width'
+    searchable: false
+    settings:
+      default: false
+      offLabel: null
+      onLabel: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Lightswitch

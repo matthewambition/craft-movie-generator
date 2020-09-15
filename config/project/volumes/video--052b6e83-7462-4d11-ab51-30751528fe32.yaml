@@ -1,0 +1,38 @@
+fieldLayouts:
+  e94181c9-dfcf-471c-a6d4-ec5d680c41e0:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: video
+hasUrls: true
+name: Video
+settings:
+  path: '@webroot/uploads/video'
+sortOrder: 3
+type: craft\volumes\Local
+url: /uploads/video

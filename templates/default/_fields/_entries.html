@@ -1,0 +1,22 @@
+{% set sectionEntries = block.sectionEntries.all() %}
+
+{% for entry in sectionEntries %}
+  
+  {% set img = entry.featuredImage.one() %}
+  
+  <div class="entry-item col-md my-3 my-lg-0 text-center ">
+        
+    {% if img %}
+    <div class="entry-media w-75 mx-auto mb-3">
+      <a href="{{ entry.url }}"><img src="{{ img.getUrl('spotlightStandard') }}" alt="{{ img.title }}" class="img-fluid"></a>
+    </div>
+    {% endif %}
+    
+    <div class="entry-text">
+      <h4><a href="{{ entry.url }}">{{ entry.title }}</a></h4>
+      <p>{{ entry.description }}<p>
+    </div>
+      
+  </div>
+  
+{% endfor %}

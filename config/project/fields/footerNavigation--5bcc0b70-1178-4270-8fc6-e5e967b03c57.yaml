@@ -1,0 +1,9 @@
+contentColumnType: text
+fieldGroup: e1d393b0-7aa4-4ca0-94e3-0eeca1b1423d
+handle: footerNavigation
+instructions: ''
+name: 'Footer Navigation'
+searchable: true
+translationKeyFormat: null
+translationMethod: none
+type: verbb\navigation\fields\NavigationField

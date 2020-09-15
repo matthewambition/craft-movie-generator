@@ -1,0 +1,76 @@
+{#
+ # Main site layout template
+ # -------------------------
+-#}
+
+{% extends "_layouts/base" %}
+
+{% block body %}
+
+<div class="site-wrapper">
+
+  <!-- Header Section -->
+  <header>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="/">{{ siteName }}</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        {{ craft.navigation.render('mainNavigation', {
+            ulClass: 'navbar-nav ml-auto',
+            liClass: 'nav-item',
+            aClass: 'nav-link',
+            activeClass: 'active'
+        }) }}
+      </div>
+    </nav>
+  </header>
+  <!-- Header Section Ends -->
+
+  <!-- Main Content Section -->
+  <main role="main">
+    {% block main %}{% endblock %}
+  </main>
+  <!-- Main Content Section Ends -->
+
+  <!-- Footer Section -->
+  <footer class="footer mt-auto">
+    <div class="footer-modules padding-normal bg-white text-dark">
+      <div class="container">
+        <div class="row">
+          {% if siteSettings.footerNavigation %}
+            <div class="col-md p-3">
+              <h4>{{ siteSettings.footerNavTitle }}</h4>
+              {{ craft.navigation.render(siteSettings.footerNavigation, {
+                  ulClass: 'list-unstyled'
+              }) }}
+            </div>
+          {% endif %}
+          {% if siteSettings.module1 %}
+            <div class="col-md p-3">
+              {{ siteSettings.module1 }}
+            </div>
+          {% endif %}
+          {% if siteSettings.module2 %}
+            <div class="col-md p-3">
+              {{ siteSettings.module2 }}
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+    <div class="copyright bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col small text-muted p-3">{{ siteSettings.copyright }}</div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer Section Ends -->
+
+</div> <!-- Site Wrapper Ends -->
+
+{% endblock %}

@@ -1,0 +1,179 @@
+field: 38a113f2-a291-41e2-b9c2-44d10e17e002
+fieldLayouts:
+  26978736-7a55-4ea6-9667-c8045a7ee4d3:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 3998b7b5-56b5-4176-9f8a-553f60281c78
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: e02d24e2-305c-41be-ab36-cceeab10d48b
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 2034c291-e303-410c-8b06-ba45733fa39c
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  2034c291-e303-410c-8b06-ba45733fa39c:
+    contentColumnType: string
+    fieldGroup: null
+    handle: sectionOptions
+    instructions: ''
+    name: 'Section Options'
+    searchable: false
+    settings:
+      columns:
+        __assoc__:
+          -
+            - 86659886-90b1-4793-b260-7e4bf7ae689c
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 37b46ba1-0040-4c49-9db5-9a346de45d46
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 4307ade0-3db0-4367-bd81-8e80505594e2
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 1de6b1be-14b4-4b01-bff4-63e03e855464
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 1d4c0aa9-57d1-4279-ac8f-4b0db1885447
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 9258bdc5-5b3e-4c34-9e61-4636f8419084
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - cfdfd29b-12a4-4656-996c-a978978906c6
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 82e36bf8-45e3-4521-9134-45522991356a
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+      contentTable: '{{%stc_6_sectionoptions}}'
+      fieldLayout: row
+      maxRows: '1'
+      minRows: '1'
+      placeholderKey: null
+      propagationMethod: all
+      selectionLabel: ''
+      staticField: '1'
+    translationKeyFormat: null
+    translationMethod: site
+    type: verbb\supertable\fields\SuperTableField
+  3998b7b5-56b5-4176-9f8a-553f60281c78:
+    contentColumnType: text
+    fieldGroup: null
+    handle: sectionIntroduction
+    instructions: ''
+    name: 'Section Introduction'
+    searchable: true
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      cleanupHtml: true
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: ''
+      purifyHtml: '1'
+      redactorConfig: ''
+      removeEmptyTags: ''
+      removeInlineStyles: ''
+      removeNbsp: ''
+      showHtmlButtonForNonAdmins: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: true
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  e02d24e2-305c-41be-ab36-cceeab10d48b:
+    contentColumnType: string
+    fieldGroup: null
+    handle: sectionContent
+    instructions: ''
+    name: 'Section Content'
+    searchable: true
+    settings:
+      columns:
+        __assoc__:
+          -
+            - b5634a68-6dfb-4d6c-970f-44e24b5bb0c5
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - d3cb8f4f-4876-488e-8bde-1aa0d2a63330
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+      contentTable: '{{%stc_6_sectioncontent}}'
+      fieldLayout: row
+      maxRows: ''
+      minRows: '1'
+      placeholderKey: null
+      propagationMethod: all
+      selectionLabel: 'Add an item'
+      staticField: ''
+    translationKeyFormat: null
+    translationMethod: site
+    type: verbb\supertable\fields\SuperTableField
+handle: accordion
+name: Accordion
+sortOrder: 6

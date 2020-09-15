@@ -1,0 +1,151 @@
+field: 38a113f2-a291-41e2-b9c2-44d10e17e002
+fieldLayouts:
+  b9f7727d-93f6-4513-90ea-0d59d039b65a:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: f5cea6e1-6fda-44f9-a451-692922eea8f8
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 0e2aa427-2de5-4a45-a094-15423ac50865
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: a1514ddd-c878-4d5e-8b62-cef8bedf01e5
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  0e2aa427-2de5-4a45-a094-15423ac50865:
+    contentColumnType: string
+    fieldGroup: null
+    handle: sectionEntries
+    instructions: ''
+    name: 'Section Entries'
+    searchable: true
+    settings:
+      allowSelfRelations: false
+      limit: '4'
+      localizeRelations: false
+      selectionLabel: ''
+      showSiteMenu: true
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  a1514ddd-c878-4d5e-8b62-cef8bedf01e5:
+    contentColumnType: string
+    fieldGroup: null
+    handle: sectionOptions
+    instructions: ''
+    name: 'Section Options'
+    searchable: true
+    settings:
+      columns:
+        __assoc__:
+          -
+            - c571c2f5-7883-445e-a71f-97a38cd766e9
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 76c25bf2-e6bf-46eb-a7f1-59d5b241d07e
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 372957f7-c73e-49c6-9ab6-70c90bb186ae
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - c8bd6834-c4d0-4af4-8976-8f00d3cea145
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - d121a4b9-4b61-41ff-9766-de259c12fbf2
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 6a634d43-4533-4ba3-9e04-36e6e48ad1b8
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+      contentTable: '{{%stc_7_sectionoptions}}'
+      fieldLayout: row
+      maxRows: '1'
+      minRows: '1'
+      placeholderKey: null
+      propagationMethod: all
+      selectionLabel: ''
+      staticField: '1'
+    translationKeyFormat: null
+    translationMethod: site
+    type: verbb\supertable\fields\SuperTableField
+  f5cea6e1-6fda-44f9-a451-692922eea8f8:
+    contentColumnType: text
+    fieldGroup: null
+    handle: sectionIntroduction
+    instructions: ''
+    name: 'Section Introduction'
+    searchable: true
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      cleanupHtml: true
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: ''
+      purifyHtml: '1'
+      redactorConfig: Standard.json
+      removeEmptyTags: ''
+      removeInlineStyles: ''
+      removeNbsp: ''
+      showHtmlButtonForNonAdmins: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: true
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+handle: entries
+name: Entries
+sortOrder: 8
