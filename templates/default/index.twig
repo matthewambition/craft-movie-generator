@@ -1,0 +1,98 @@
+{% extends '_layouts/site' %}
+
+{% block main %}
+
+  <div class="content-wrapper">
+
+    <!-- Generator Start -->
+    <div id="generatorWrapper">
+      <!-- Settings Start -->
+      <div class="settings-wrapper">
+        <h2 class="title normal-spacing">What <span class="generatorType theme-color">Movie</span> are we <span class="generatorActivity theme-color">Watching</span>&nbsp;today?</h2>
+        <!-- Filters Start -->
+        <form class="filters">
+          <div class="form-group small-spacing mr-2 mr-md-0 order-1">
+            <label class="user-select-none" for="genreFilter">Genre</label>
+            <select class="form-control" id="genreFilter"></select>
+          </div>
+          <div class="form-group small-spacing mr-2 mr-md-0 order-2">
+            <label class="user-select-none" for="dateFilter">Release Date</label>
+            <select class="form-control" id="dateFilter"></select>
+          </div>
+          <div id="extraFilters" class="animate open order-3">
+            <div id="seasonFilterWrapper" class="form-group small-spacing">
+              <label class="user-select-none" for="seasonFilter">Seasons</label>
+              <select id="seasonFilter" class="form-control">
+                <option value="Any">Any</option>
+                <option value="1-5">1-5</option>
+                <option value="6-10">6-10</option>
+                <option value="11-15">11-15</option>
+                <option value="16-20">16-20</option>
+                <option value="20+">20+</option>
+              </select>
+            </div>
+            <div id="platformFilterWrapper" class="form-group small-spacing">
+              <label class="user-select-none" for="platformFilter">Platform</label>
+              <select id="platformFilter" class="form-control">
+                <option value="Any">Any</option>
+                <option value="Multiple">Multiple</option>
+                <option value="PlayStation">PlayStation</option>
+                <option value="Steam">Steam</option>
+                <option value="Xbox">Xbox</option>
+              </select>
+            </div>
+          </div>
+        </form>
+        <!-- Filters End -->
+        <button id="generate" class="btn btn-primary mb-3">
+          Generate
+        </button>
+        <p class="resultAmount text-left animate">Results Generated: <span></span></p>
+      </div>
+      <!-- Settings End -->
+
+      <!-- Results Start -->
+      <div class="results-wrapper">
+        <!-- Thumbnail Start -->
+        <div class="thumbnail-wrapper">
+          <div class="overlay">
+            <i class="fal fa-dice"></i>
+          </div>
+          <img src="uploads/thumbnails/prince-of-persia.jpg" class="thumbnail img-fluid user-select-none">
+        </div>
+        <!-- Thumbnail End -->
+
+        <!-- Result Info Start -->
+        <div class="results-inner">
+          <p class="disabled trailer theme-color"><i class="fas fa-play-circle"></i>Watch trailer</p>
+          <p class="pre-result theme-color animate open">You're <span class="generatorActivity">Watching</span></p>
+          <h2 class="resultTitle user-select-all small-spacing animate open">Press generate to roll the&nbsp;dice.</h2>
+          <div class="result-details small-spacing animate open">
+            <p class="disabled date">Year</p>
+            <p class="disabled genre theme-color">Genre</p>
+            <p class="disabled seasons theme-color">Seasons</p>
+            <p class="disabled platform theme-color">Platform</p>
+          </div>
+          <div class="result-rating animate open">
+            <div class="stars user-select-none">
+              <i class="star fas fa-star-half"></i>
+              <i class="star fas fa-star-half"></i>
+              <i class="star fas fa-star-half"></i>
+              <i class="star fas fa-star-half"></i>
+              <i class="star fas fa-star-half"></i>
+              <i class="star fas fa-star-half"></i>
+              <i class="star fas fa-star-half"></i>
+              <i class="star fas fa-star-half"></i>
+              <i class="star fas fa-star-half"></i>
+              <i class="star fas fa-star-half"></i>
+            </div>
+            <p class="score theme-color"></p>
+          </div>
+        </div>
+        <!-- Result Info End -->
+      </div>
+      <!-- Results End -->
+    </div>
+    <!-- Generator End -->
+  </div>
+{% endblock %}

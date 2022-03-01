@@ -1,0 +1,163 @@
+
+body {
+
+  // Declare primary/default theme color
+  .theme-color {
+    color: $primary;
+    transition: .3s ease !important;
+  }
+
+  // Declare :before's first so that they can fade in
+  &:before {
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.05) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+    background-size: 100% 2px, 3px 100%;
+    bottom: 0;
+    content: '';
+    display: block;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transition: .3s ease;
+    z-index: 2;
+  }
+
+  /* :before required on #site-wrapper so that there's no conflict with the before on the body,
+     and to also load the image pre-generation */
+  #site-wrapper {
+    &:before {
+      background-image: url("/assets/images/vintage-overlay.png");
+      bottom: 0;
+      content: '';
+      display: block;
+      filter: grayscale(.5);
+      height: 100%;
+      left: 0;
+      opacity: 0;
+      pointer-events: none;
+      position: fixed;
+      right: 0;
+      top: 0;
+      transition: .3s ease;
+      width: 100%;
+      z-index: 2;
+    }
+  }
+
+  // Styles for specific dates
+  // 1950s & 1960s
+  &.\31 950s,
+  &.\31 960s {
+    #site-wrapper {
+      &:before {
+        opacity: .2;
+      }
+    }
+  }
+  // 1970s - 1990s
+  &.\31 970s,
+  &.\31 980s,
+  &.\31 990s {
+    &:after {
+      animation: flicker 2s infinite;
+      -webkit-animation: flicker 2s infinite;
+      animation-direction: alternate;
+      -webkit-animation-direction: alternate;
+      background: rgba(18, 16, 16, 0.05);
+      bottom: 0;
+      content: '';
+      display: block;
+      left: 0;
+      opacity: 0;
+      pointer-events: none;
+      position: fixed;
+      right: 0;
+      top: 0;
+      z-index: 2;
+    }
+    &:before {
+      opacity: 1;
+    }
+  }
+
+  // Styles for specific genres
+  &.action,
+  &.horror,
+  &.romance,
+  &.thriller,
+  &.fps {
+    background-color: $red-100;
+
+    .btn,
+    .overlay,
+    .active {
+      background-color: $red !important;
+    }
+
+    .star {
+      color: $red-200 !important;
+    }
+
+    .theme-color,
+    .checked {
+      color: $red !important;
+    }
+
+    ::selection {
+      background-color: $red-200;
+    }
+  }
+
+  &.crime,
+  &.drama,
+  &.war,
+  &.western {
+    background-color: $yellow-100;
+
+    .btn,
+    .overlay,
+    .active {
+      background-color: $yellow !important;
+    }
+
+    .star {
+      color: $yellow-200 !important;
+    }
+
+    .theme-color,
+    .checked {
+      color: $yellow !important;
+    }
+
+    ::selection {
+      background-color: $yellow-200;
+    }
+  }
+
+  &.fantasy,
+  &.platformer,
+  &.sci-fi {
+    background-color: $blue-100;
+
+    .btn,
+    .overlay,
+    .active {
+      background-color: $blue !important;
+    }
+
+    .star {
+      color: $blue-200 !important;
+    }
+
+    .theme-color,
+    .checked {
+      color: $blue !important;
+    }
+
+    ::selection {
+      background-color: $blue-200;
+    }
+  }
+}

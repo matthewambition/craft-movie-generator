@@ -5,5 +5,5 @@ hasUrls: true
 language: en-GB
 name: 'Movie Generator'
 primary: true
-siteGroup: e237c120-4d6b-40a4-809a-8fd3505dd571
+siteGroup: e237c120-4d6b-40a4-809a-8fd3505dd571 # Movie Generator
 sortOrder: 1

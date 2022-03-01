@@ -1,37 +1,39 @@
 /*!
-* Ambition Craft Boilerplate - Utilising Bootstrap 4.5.x
+* Movie Generator - Utilising Bootstrap 4.5.x
 */
+
+// Remote Fontsets
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300%3B400%3B700&display=swap');
 
 // Set up custom variables and mixins
 @import "base/variables";
 @import "base/mixins";
 
-// Bootstrap Kitchen Sink
 // If a lighter version is needed, pull in each individual element from the .scss file below
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // Base
+@import "base/animations";
 @import "base/fonts";
-@import "base/mixins";
+@import "base/keyframes";
 @import "base/typography";
+@import "base/utilities";
 
 // Vendor
 // @import "../../node_modules/slick-carousel/slick/slick";
+
+// Pages
+@import "pages/home";
 
 // Layout
 @import "layout/structure";
 @import "layout/header";
 @import "layout/footer";
+@import "layout/themes";
 
 // Components
-@import "components/accordion";
-@import "components/banner";
 @import "components/buttons";
-@import "components/call-to-action";
 @import "components/columns";
 @import "components/embed";
-@import "components/feature";
+@import "components/modal";
 @import "components/forms";
-@import "components/spotlights";
-@import "components/testimonials";
-@import "components/tooltips";

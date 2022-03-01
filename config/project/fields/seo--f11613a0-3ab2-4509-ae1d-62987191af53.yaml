@@ -1,5 +1,5 @@
 contentColumnType: text
-fieldGroup: 466cbcb0-558e-40dd-a7ec-438eec2b9815
+fieldGroup: 466cbcb0-558e-40dd-a7ec-438eec2b9815 # Common
 handle: seo
 instructions: 'By default, the SEO for this entry will be drawn from the page title, description and featured image fields. However you can override any of these using the SEO fields below.'
 name: SEO

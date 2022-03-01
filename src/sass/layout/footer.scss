@@ -1,3 +1,22 @@
 // Global Footer Styles
 // ******************************************************************************
 
+.footer {
+  .copyright {
+    .bottom-nav {
+      align-items: center;
+      display: flex;
+      justify-content: flex-start;
+
+      @media only screen and (min-width: 768px) {
+        justify-content: flex-end;
+      }
+
+      li {
+        font-size: 14px;
+        padding-bottom: 0;
+        margin-right: 12px;
+      }
+    }
+  }
+}

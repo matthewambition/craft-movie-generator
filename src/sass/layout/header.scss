@@ -1,3 +1,84 @@
 // Global Header Styles
 // ******************************************************************************
 
+// Global Header Styles
+// ******************************************************************************
+header {
+
+  &.nav-wrapper {
+    background-color: transparent;
+    justify-content: center;
+    padding: 12px 0;
+    position: relative;
+    transition: .3s ease;
+    width: 100%;
+    z-index: 1;
+
+    @media only screen and (min-width: 768px) {
+      margin-bottom: -100px;
+      padding: 0 0 0 20px;
+      width: 50%;
+    }
+
+    .btn-group {
+      justify-content: center;
+      margin-right: 8px;
+      width: 30%;
+
+      @media only screen and (min-width: 768px) {
+        margin: 0;
+        width: 33%;
+      }
+
+      &:last-of-type {
+        margin-right: 0;
+      }
+
+      .nav-item {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        max-width: 80%;
+        opacity: .5;
+        transition: .3s ease;
+
+        &.active {
+          background-color: $primary;
+          border: none;
+          opacity: 1 !important;
+
+          &:hover {
+            opacity: 1 !important;
+          }
+        }
+
+        &:hover {
+          background-color: $primary;
+          opacity: 1;
+        }
+
+        &:focus {
+          box-shadow: none !important;
+        }
+
+        .nav-icon {
+          font-size: 22px;
+
+          @media only screen and (min-width: 373px) {
+            font-size: 18px;
+            margin-right: 6px;
+          }
+        }
+
+        .nav-text {
+          color: #fff;
+          display: none;
+
+          @media only screen and (min-width: 373px) {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}

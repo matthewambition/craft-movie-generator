@@ -1,4 +1,4 @@
-dateModified: 1600160845
+dateModified: 1646167154
 email:
   fromEmail: noreply@ambitioncreative.co.uk
   fromName: 'Craft Boilerplate'
@@ -7,6 +7,83 @@ email:
   transportSettings:
     command: ''
   transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    0d937847-4613-4d9d-97cb-8991f140ef42: '04. Video Placeholder (16:9)' # 04. Video Placeholder (16:9)
+    0e2aa427-2de5-4a45-a094-15423ac50865: 'Section Entries' # Section Entries
+    2b186ca9-63fd-4d08-b323-e55eeb7b1671: 'Footer Navigation' # Footer Navigation
+    2d46e392-fcd5-4e8b-ada0-9be228ff8c09: 'Site Settings' # Site Settings
+    02ecde5d-58c5-4daf-8624-72e1fa8a93eb: 'Background Image' # Background Image
+    2fddcf64-f09d-4783-8520-deecd7cd65d6: 'Column Width' # Column Width
+    3b59abce-3d4d-468b-8520-44b2f3db37d9: 'Section Content' # Section Content
+    03b9360c-0ec9-4b16-92ce-d2d1bcff4101: 'Background Image' # Background Image
+    3e9057df-b965-45f5-8c0b-934a906a60c9: 'Main Navigation' # Main Navigation
+    5caa5c6f-3b72-48ac-b3fd-7f170b965d3d: 'Movie Generator' # Movie Generator
+    5effa88a-b540-4e58-91f1-712ade86e8c1: 'Public Schema' # Public Schema
+    6a634d43-4533-4ba3-9e04-36e6e48ad1b8: 'Section Class' # Section Class
+    6b2d9fc0-24b3-4b2f-9550-1c3e5b21a41f: Thumbnails # Thumbnails
+    6c123efe-b53d-44f9-8776-8f2487b2484d: Pages # Pages
+    7ab514cf-1e7d-4325-be9f-9b5a5b1f1a39: Elements # Elements
+    8d958cae-81d7-4915-bf41-58cd070a4bf3: 'Text Light' # Text Light
+    8dda748f-05b3-4131-a672-b9fca1749fa3: '05. Spotlight (Square)' # 05. Spotlight (Square)
+    9a284186-46b9-4202-8d9f-c01ffb5ed9a2: Elements # Elements
+    33bc2592-f44b-4aa4-9fc9-a23089d45f0f: 'Background Colour' # Background Colour
+    38a113f2-a291-41e2-b9c2-44d10e17e002: 'Content Builder' # Content Builder
+    052b6e83-7462-4d11-ab51-30751528fe32: Video # Video
+    71fd9907-7a9c-420f-b8ba-ff56df526684: Home # Home
+    76c25bf2-e6bf-46eb-a7f1-59d5b241d07e: 'Background Colour' # Background Colour
+    81ff0268-4939-4702-9cd0-8f7ae0eebe9a: 'Full Width' # Full Width
+    82c4bce4-27ad-4ebf-811f-e5ce4c33a852: Entries # Entries
+    82ee8c28-05a2-4875-a51f-f03c2d7dfc68: '01. Background' # 01. Background
+    84b51837-3d6b-4763-8ebd-cd7b22edb675: 'Featured Image' # Featured Image
+    99becc6b-78b8-4761-b8b0-2763995f87ea: 'Background Image' # Background Image
+    244c8899-c0b5-46f0-b74e-f81a9af913b2: Images # Images
+    466cbcb0-558e-40dd-a7ec-438eec2b9815: Common # Common
+    511fcb81-8aa7-4b19-b1c0-4134cda61282: Pages # Pages
+    535af27e-d2cf-422c-b361-08492c549385: Elements # Elements
+    562b5f18-5a95-4564-90ff-6234b054abf4: 'Background Colour' # Background Colour
+    572c0ae0-d606-46a0-b420-737f8b63cd34: 'Embed URL' # Embed URL
+    632bf12e-8cf8-481e-8664-132ea931fe89: Description # Description
+    701a64b6-b19b-4a85-a182-e33ad045cfa3: 'Column Padding' # Column Padding
+    881d8083-6117-4f6f-bf60-096741cd45bc: 'Aspect Ratio' # Aspect Ratio
+    930d053a-c74f-4c22-8a78-2e7263ecf8ec: Elements # Elements
+    27724e67-bfbb-4948-8c6e-063e5ae35f27: 'Section ID' # Section ID
+    37923d62-019f-4338-bf4f-5ecf54f26c27: API # API
+    54095cb1-ccf7-45fc-85ba-79a06489eca1: 'Section ID' # Section ID
+    56916e43-f935-4464-ab96-dfd1cbe63a5b: '06. Spotlight (Standard)' # 06. Spotlight (Standard)
+    78710ccf-2b88-4408-9234-2da219fbf955: Embed # Embed
+    92051c5f-9fb9-4d65-b2ca-83cbeeba4c8a: Clients # Clients
+    372957f7-c73e-49c6-9ab6-70c90bb186ae: 'Background Image' # Background Image
+    520435a7-5b4e-43cc-ad17-0b5d43ebf127: 'Section Padding' # Section Padding
+    a0f841ba-257a-4e3f-970b-7cfbdbde0036: 'Section Introduction' # Section Introduction
+    a1514ddd-c878-4d5e-8b62-cef8bedf01e5: 'Section Options' # Section Options
+    a9047d74-32be-4779-9bf0-b70dd963efd7: 'Column Content' # Column Content
+    ab65d7e0-3033-4346-945c-abb10f7511ae: 'Text Light' # Text Light
+    ad5a5a21-d9f8-4a7c-b30f-7945b71d065c: 'Custom Code' # Custom Code
+    b8ceeb74-8113-4c73-a4c6-052da66c036c: 'Text Light' # Text Light
+    ba3d2116-072a-4909-a18c-eed40f62cfde: Custom # Custom
+    badfd65c-ecad-4db4-8651-b5616f2ca0df: Home # Home
+    bef774ad-e70d-4e96-a3e5-3a917e4b6b9e: 'Background Colour' # Background Colour
+    bf334030-d954-4bdf-bf73-a5287486c1c0: 'Section Class' # Section Class
+    c3f9098d-01e9-413c-86a9-8912f752d04a: 'Section Class' # Section Class
+    c8bd6834-c4d0-4af4-8976-8f00d3cea145: 'Text Light' # Text Light
+    c571c2f5-7883-445e-a71f-97a38cd766e9: 'Section Padding' # Section Padding
+    cb9a8288-ddc5-41b4-a78b-338d3d147a37: 'Section Options' # Section Options
+    d121a4b9-4b61-41ff-9766-de259c12fbf2: 'Section ID' # Section ID
+    d978fe1e-3b49-4a07-8478-5bc52a7b4c7f: Columns # Columns
+    e1d393b0-7aa4-4ca0-94e3-0eeca1b1423d: Globals # Globals
+    e7dd5cae-759b-424b-831d-23449b3331ba: 'Section Padding' # Section Padding
+    e48f1d2f-9b9e-44ea-b85c-cbf4a8c0373c: 'Section Options' # Section Options
+    e237c120-4d6b-40a4-809a-8fd3505dd571: 'Movie Generator' # Movie Generator
+    e3216d3f-8b55-4c07-9a1c-24756714c336: '03. Featured (Standard)' # 03. Featured (Standard)
+    ea390df1-a6c4-4691-b0a9-1692ba9251be: 'Full Width' # Full Width
+    ed49068f-d7d5-40f0-94ae-78306dbef025: 'Vertical Alignment' # Vertical Alignment
+    edd35aaf-1568-45d5-8a6f-938e74370edf: 'Content Alignment' # Content Alignment
+    eeac4b24-0c07-4ff9-8c33-035538d10314: 'Bottom Bar Navigation' # Bottom Bar Navigation
+    f3ffe775-7f4e-455c-a73a-45f44e0f4757: 'Section Content' # Section Content
+    f5cea6e1-6fda-44f9-a451-692922eea8f8: 'Section Introduction' # Section Introduction
+    f17eaa0c-fef4-49ea-9ffe-772553416e9c: '02. Featured (Square)' # 02. Featured (Square)
+    f11613a0-3ab2-4509-ae1d-62987191af53: SEO # SEO
 plugins:
   code-mirror:
     edition: standard
@@ -14,7 +91,8 @@ plugins:
     schemaVersion: 1.0.0
   navigation:
     edition: standard
-    enabled: true
+    enabled: false
+    licenseKey: OE0W94JWSUXRLH4J6F4LZVZF
     schemaVersion: 1.0.19
   redactor:
     edition: standard
@@ -23,18 +101,27 @@ plugins:
   seomatic:
     edition: standard
     enabled: true
-    schemaVersion: 3.0.9
+    licenseKey: R8CYTXOULSJAL1DTB4SSO8PM
+    schemaVersion: 3.0.11
     settings:
       addHrefLang: true
       addPaginatedHreflang: true
       addXDefaultHrefLang: true
       cpTitlePrefix: '⚙ '
-      devModeCpTitlePrefix: '&#x1f6a7;⚙ '
-      devModeTitlePrefix: '&#x1f6a7; '
+      cspNonce: ''
+      cspScriptSrcPolicies:
+        -
+          __assoc__:
+            -
+              - policy
+              - '''self'''
+      devModeCpTitlePrefix: '&#x1f3ac; ⚙ '
+      devModeTitlePrefix: '&#x1f3ac; '
       displayAnalysisSidebar: true
       displayPreviewSidebar: true
-      enableJsonLdEndpoint: ''
-      enableMetaContainerEndpoint: ''
+      enableJsonLdEndpoint: false
+      enableMetaContainerEndpoint: false
+      enableSeoFileLinkEndpoint: false
       environment: live
       generatorEnabled: true
       headersEnabled: true
@@ -68,11 +155,5 @@ system:
   live: true
   name: 'Movie Generator'
   retryDuration: null
-  schemaVersion: 3.5.13
+  schemaVersion: 3.7.33
   timeZone: Europe/London
-users:
-  allowPublicRegistration: false
-  defaultGroup: null
-  photoSubpath: ''
-  photoVolumeUid: null
-  requireEmailVerification: true

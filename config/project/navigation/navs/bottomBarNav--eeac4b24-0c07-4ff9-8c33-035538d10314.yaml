@@ -1,0 +1,9 @@
+handle: bottomBarNav
+instructions: ''
+maxNodes: '4'
+name: 'Bottom Bar Navigation'
+propagateNodes: false
+sortOrder: 3
+structure:
+  maxLevels: '4'
+  uid: 644a6e18-a750-4e16-bcf2-d87f85dcf53e

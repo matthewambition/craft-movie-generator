@@ -1,6 +1,6 @@
 enableVersioning: true
-handle: pages
-name: Pages
+handle: home
+name: Home
 previewTargets:
   -
     __assoc__:
@@ -13,11 +13,11 @@ previewTargets:
       -
         - refresh
         - '1'
-propagationMethod: none
+propagationMethod: all
 siteSettings:
   5caa5c6f-3b72-48ac-b3fd-7f170b965d3d: # Movie Generator
     enabledByDefault: true
     hasUrls: true
-    template: pages/index
-    uriFormat: '{slug}'
-type: channel
+    template: index
+    uriFormat: __home__
+type: single

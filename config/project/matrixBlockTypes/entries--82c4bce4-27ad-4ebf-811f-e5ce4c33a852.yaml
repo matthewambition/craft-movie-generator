@@ -1,32 +1,32 @@
-field: 38a113f2-a291-41e2-b9c2-44d10e17e002
+field: 38a113f2-a291-41e2-b9c2-44d10e17e002 # Content Builder
 fieldLayouts:
   b9f7727d-93f6-4513-90ea-0d59d039b65a:
     tabs:
       -
         elements:
           -
-            fieldUid: f5cea6e1-6fda-44f9-a451-692922eea8f8
+            fieldUid: f5cea6e1-6fda-44f9-a451-692922eea8f8 # Section Introduction
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
           -
-            fieldUid: 0e2aa427-2de5-4a45-a094-15423ac50865
+            fieldUid: 0e2aa427-2de5-4a45-a094-15423ac50865 # Section Entries
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
           -
-            fieldUid: a1514ddd-c878-4d5e-8b62-cef8bedf01e5
+            fieldUid: a1514ddd-c878-4d5e-8b62-cef8bedf01e5 # Section Options
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
@@ -34,7 +34,7 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  0e2aa427-2de5-4a45-a094-15423ac50865:
+  0e2aa427-2de5-4a45-a094-15423ac50865: # Section Entries
     contentColumnType: string
     fieldGroup: null
     handle: sectionEntries
@@ -55,7 +55,7 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Entries
-  a1514ddd-c878-4d5e-8b62-cef8bedf01e5:
+  a1514ddd-c878-4d5e-8b62-cef8bedf01e5: # Section Options
     contentColumnType: string
     fieldGroup: null
     handle: sectionOptions
@@ -66,42 +66,42 @@ fields:
       columns:
         __assoc__:
           -
-            - c571c2f5-7883-445e-a71f-97a38cd766e9
+            - c571c2f5-7883-445e-a71f-97a38cd766e9 # Section Padding
             -
               __assoc__:
                 -
                   - width
                   - ''
           -
-            - 76c25bf2-e6bf-46eb-a7f1-59d5b241d07e
+            - 76c25bf2-e6bf-46eb-a7f1-59d5b241d07e # Background Colour
             -
               __assoc__:
                 -
                   - width
                   - ''
           -
-            - 372957f7-c73e-49c6-9ab6-70c90bb186ae
+            - 372957f7-c73e-49c6-9ab6-70c90bb186ae # Background Image
             -
               __assoc__:
                 -
                   - width
                   - ''
           -
-            - c8bd6834-c4d0-4af4-8976-8f00d3cea145
+            - c8bd6834-c4d0-4af4-8976-8f00d3cea145 # Text Light
             -
               __assoc__:
                 -
                   - width
                   - ''
           -
-            - d121a4b9-4b61-41ff-9766-de259c12fbf2
+            - d121a4b9-4b61-41ff-9766-de259c12fbf2 # Section ID
             -
               __assoc__:
                 -
                   - width
                   - ''
           -
-            - 6a634d43-4533-4ba3-9e04-36e6e48ad1b8
+            - 6a634d43-4533-4ba3-9e04-36e6e48ad1b8 # Section Class
             -
               __assoc__:
                 -
@@ -118,7 +118,7 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: verbb\supertable\fields\SuperTableField
-  f5cea6e1-6fda-44f9-a451-692922eea8f8:
+  f5cea6e1-6fda-44f9-a451-692922eea8f8: # Section Introduction
     contentColumnType: text
     fieldGroup: null
     handle: sectionIntroduction
@@ -139,7 +139,7 @@ fields:
       removeEmptyTags: ''
       removeInlineStyles: ''
       removeNbsp: ''
-      showHtmlButtonForNonAdmins: true
+      showHtmlButtonForNonAdmins: '1'
       showUnpermittedFiles: false
       showUnpermittedVolumes: true
       uiMode: enlarged
@@ -148,4 +148,4 @@ fields:
     type: craft\redactor\Field
 handle: entries
 name: Entries
-sortOrder: 8
+sortOrder: 3

@@ -1,14 +1,14 @@
-field: 38a113f2-a291-41e2-b9c2-44d10e17e002
+field: 38a113f2-a291-41e2-b9c2-44d10e17e002 # Content Builder
 fieldLayouts:
   6efcfc94-fd7d-4807-a0f6-4e797743e770:
     tabs:
       -
         elements:
           -
-            fieldUid: 7ab514cf-1e7d-4325-be9f-9b5a5b1f1a39
+            fieldUid: 7ab514cf-1e7d-4325-be9f-9b5a5b1f1a39 # Elements
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
@@ -16,7 +16,7 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  7ab514cf-1e7d-4325-be9f-9b5a5b1f1a39:
+  7ab514cf-1e7d-4325-be9f-9b5a5b1f1a39: # Elements
     contentColumnType: string
     fieldGroup: null
     handle: elements
@@ -31,7 +31,7 @@ fields:
       showSiteMenu: true
       source: null
       sources:
-        - 'section:9a284186-46b9-4202-8d9f-c01ffb5ed9a2'
+        - 'section:9a284186-46b9-4202-8d9f-c01ffb5ed9a2' # Elements
       targetSiteId: null
       validateRelatedElements: false
       viewMode: null
@@ -40,4 +40,4 @@ fields:
     type: craft\fields\Entries
 handle: elements
 name: Elements
-sortOrder: 10
+sortOrder: 4

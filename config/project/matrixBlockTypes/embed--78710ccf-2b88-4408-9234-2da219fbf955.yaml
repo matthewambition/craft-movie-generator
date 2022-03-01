@@ -1,32 +1,32 @@
-field: 38a113f2-a291-41e2-b9c2-44d10e17e002
+field: 38a113f2-a291-41e2-b9c2-44d10e17e002 # Content Builder
 fieldLayouts:
   8215019c-21de-4794-8aef-ffd9c3073f6f:
     tabs:
       -
         elements:
           -
-            fieldUid: a0f841ba-257a-4e3f-970b-7cfbdbde0036
+            fieldUid: a0f841ba-257a-4e3f-970b-7cfbdbde0036 # Section Introduction
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
           -
-            fieldUid: 3b59abce-3d4d-468b-8520-44b2f3db37d9
+            fieldUid: 3b59abce-3d4d-468b-8520-44b2f3db37d9 # Section Content
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
           -
-            fieldUid: cb9a8288-ddc5-41b4-a78b-338d3d147a37
+            fieldUid: cb9a8288-ddc5-41b4-a78b-338d3d147a37 # Section Options
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
@@ -34,7 +34,7 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  3b59abce-3d4d-468b-8520-44b2f3db37d9:
+  3b59abce-3d4d-468b-8520-44b2f3db37d9: # Section Content
     contentColumnType: string
     fieldGroup: null
     handle: sectionContent
@@ -45,14 +45,14 @@ fields:
       columns:
         __assoc__:
           -
-            - 572c0ae0-d606-46a0-b420-737f8b63cd34
+            - 572c0ae0-d606-46a0-b420-737f8b63cd34 # Embed URL
             -
               __assoc__:
                 -
                   - width
                   - ''
           -
-            - 881d8083-6117-4f6f-bf60-096741cd45bc
+            - 881d8083-6117-4f6f-bf60-096741cd45bc # Aspect Ratio
             -
               __assoc__:
                 -
@@ -69,7 +69,7 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: verbb\supertable\fields\SuperTableField
-  a0f841ba-257a-4e3f-970b-7cfbdbde0036:
+  a0f841ba-257a-4e3f-970b-7cfbdbde0036: # Section Introduction
     contentColumnType: text
     fieldGroup: null
     handle: sectionIntroduction
@@ -90,14 +90,14 @@ fields:
       removeEmptyTags: ''
       removeInlineStyles: ''
       removeNbsp: ''
-      showHtmlButtonForNonAdmins: true
+      showHtmlButtonForNonAdmins: '1'
       showUnpermittedFiles: false
       showUnpermittedVolumes: true
       uiMode: enlarged
     translationKeyFormat: null
     translationMethod: none
     type: craft\redactor\Field
-  cb9a8288-ddc5-41b4-a78b-338d3d147a37:
+  cb9a8288-ddc5-41b4-a78b-338d3d147a37: # Section Options
     contentColumnType: string
     fieldGroup: null
     handle: sectionOptions
@@ -108,49 +108,49 @@ fields:
       columns:
         __assoc__:
           -
-            - ea390df1-a6c4-4691-b0a9-1692ba9251be
+            - ea390df1-a6c4-4691-b0a9-1692ba9251be # Full Width
             -
               __assoc__:
                 -
                   - width
                   - ''
           -
-            - e7dd5cae-759b-424b-831d-23449b3331ba
+            - e7dd5cae-759b-424b-831d-23449b3331ba # Section Padding
             -
               __assoc__:
                 -
                   - width
                   - ''
           -
-            - bef774ad-e70d-4e96-a3e5-3a917e4b6b9e
+            - bef774ad-e70d-4e96-a3e5-3a917e4b6b9e # Background Colour
             -
               __assoc__:
                 -
                   - width
                   - ''
           -
-            - 03b9360c-0ec9-4b16-92ce-d2d1bcff4101
+            - 03b9360c-0ec9-4b16-92ce-d2d1bcff4101 # Background Image
             -
               __assoc__:
                 -
                   - width
                   - ''
           -
-            - b8ceeb74-8113-4c73-a4c6-052da66c036c
+            - b8ceeb74-8113-4c73-a4c6-052da66c036c # Text Light
             -
               __assoc__:
                 -
                   - width
                   - ''
           -
-            - 54095cb1-ccf7-45fc-85ba-79a06489eca1
+            - 54095cb1-ccf7-45fc-85ba-79a06489eca1 # Section ID
             -
               __assoc__:
                 -
                   - width
                   - ''
           -
-            - bf334030-d954-4bdf-bf73-a5287486c1c0
+            - bf334030-d954-4bdf-bf73-a5287486c1c0 # Section Class
             -
               __assoc__:
                 -
@@ -169,4 +169,4 @@ fields:
     type: verbb\supertable\fields\SuperTableField
 handle: embed
 name: Embed
-sortOrder: 7
+sortOrder: 2

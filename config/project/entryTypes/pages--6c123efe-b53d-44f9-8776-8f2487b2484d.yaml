@@ -27,7 +27,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 632bf12e-8cf8-481e-8664-132ea931fe89
+            fieldUid: 632bf12e-8cf8-481e-8664-132ea931fe89 # Description
             instructions: null
             label: null
             required: '1'
@@ -36,7 +36,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 84b51837-3d6b-4763-8ebd-cd7b22edb675
+            fieldUid: 84b51837-3d6b-4763-8ebd-cd7b22edb675 # Featured Image
             instructions: null
             label: null
             required: '1'
@@ -45,7 +45,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 38a113f2-a291-41e2-b9c2-44d10e17e002
+            fieldUid: 38a113f2-a291-41e2-b9c2-44d10e17e002 # Content Builder
             instructions: null
             label: null
             required: '1'
@@ -58,7 +58,7 @@ fieldLayouts:
       -
         elements:
           -
-            fieldUid: f11613a0-3ab2-4509-ae1d-62987191af53
+            fieldUid: f11613a0-3ab2-4509-ae1d-62987191af53 # SEO
             instructions: null
             label: null
             required: '0'
@@ -71,7 +71,7 @@ fieldLayouts:
 handle: pages
 hasTitleField: true
 name: Pages
-section: 511fcb81-8aa7-4b19-b1c0-4134cda61282
+section: 511fcb81-8aa7-4b19-b1c0-4134cda61282 # Pages
 sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null

@@ -1,0 +1,38 @@
+
+.animate {
+  position: relative;
+
+  &:before {
+    background-color: #fff;
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    bottom: 0;
+    transition: .4s ease-in-out;
+    width: 101%;
+    z-index: 1;
+  }
+
+  &.open {
+    &:before {
+      left: 100%;
+      width: 0;
+    }
+  }
+}
+
+.slideHorizontal {
+  animation: slideHorizontal .5s forwards;
+
+  &.reverse {
+    animation: slideHorizontalReverse .5s forwards;
+  }
+}
+.slideVertical {
+  animation: slideVertical .5s forwards;
+
+  &.reverse {
+    animation: slideVerticalReverse .5s forwards;
+  }
+}

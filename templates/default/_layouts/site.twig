@@ -1,0 +1,24 @@
+{#
+ # Main site layout template
+ # -------------------------
+-#}
+
+{% extends "_layouts/base" %}
+
+{% block body %}
+
+<div class="site-wrapper">
+  <div class="inner-site-wrapper">
+
+    {% include "_includes/_modals" %}
+
+    {% include "_includes/_header" %}
+
+    <main role="main">
+      {% block main %}{% endblock %}
+    </main>
+
+  </div> <!-- Site Wrapper Inner Ends -->
+</div> <!-- Site Wrapper Ends -->
+
+{% endblock %}

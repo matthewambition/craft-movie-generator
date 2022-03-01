@@ -1,59 +1,59 @@
-field: a1514ddd-c878-4d5e-8b62-cef8bedf01e5
+field: a1514ddd-c878-4d5e-8b62-cef8bedf01e5 # Section Options
 fieldLayouts:
   8ebbebc2-63be-4967-867a-2525f34791ed:
     tabs:
       -
         elements:
           -
-            fieldUid: c571c2f5-7883-445e-a71f-97a38cd766e9
+            fieldUid: c571c2f5-7883-445e-a71f-97a38cd766e9 # Section Padding
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
           -
-            fieldUid: 76c25bf2-e6bf-46eb-a7f1-59d5b241d07e
+            fieldUid: 76c25bf2-e6bf-46eb-a7f1-59d5b241d07e # Background Colour
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
           -
-            fieldUid: 372957f7-c73e-49c6-9ab6-70c90bb186ae
+            fieldUid: 372957f7-c73e-49c6-9ab6-70c90bb186ae # Background Image
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
           -
-            fieldUid: c8bd6834-c4d0-4af4-8976-8f00d3cea145
+            fieldUid: c8bd6834-c4d0-4af4-8976-8f00d3cea145 # Text Light
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
           -
-            fieldUid: d121a4b9-4b61-41ff-9766-de259c12fbf2
+            fieldUid: d121a4b9-4b61-41ff-9766-de259c12fbf2 # Section ID
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
           -
-            fieldUid: 6a634d43-4533-4ba3-9e04-36e6e48ad1b8
+            fieldUid: 6a634d43-4533-4ba3-9e04-36e6e48ad1b8 # Section Class
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
@@ -61,39 +61,7 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  372957f7-c73e-49c6-9ab6-70c90bb186ae:
-    contentColumnType: string
-    fieldGroup: null
-    handle: backgroundImage
-    instructions: ''
-    name: 'Background Image'
-    searchable: false
-    settings:
-      allowSelfRelations: false
-      allowedKinds:
-        - image
-      defaultUploadLocationSource: 'volume:244c8899-c0b5-46f0-b74e-f81a9af913b2'
-      defaultUploadLocationSubpath: ''
-      limit: '1'
-      localizeRelations: false
-      restrictFiles: '1'
-      selectionLabel: ''
-      showSiteMenu: true
-      showUnpermittedFiles: false
-      showUnpermittedVolumes: true
-      singleUploadLocationSource: 'volume:244c8899-c0b5-46f0-b74e-f81a9af913b2'
-      singleUploadLocationSubpath: ''
-      source: null
-      sources:
-        - 'volume:244c8899-c0b5-46f0-b74e-f81a9af913b2'
-      targetSiteId: null
-      useSingleFolder: false
-      validateRelatedElements: false
-      viewMode: list
-    translationKeyFormat: null
-    translationMethod: site
-    type: craft\fields\Assets
-  6a634d43-4533-4ba3-9e04-36e6e48ad1b8:
+  6a634d43-4533-4ba3-9e04-36e6e48ad1b8: # Section Class
     contentColumnType: text
     fieldGroup: null
     handle: sectionClass
@@ -112,7 +80,7 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  76c25bf2-e6bf-46eb-a7f1-59d5b241d07e:
+  76c25bf2-e6bf-46eb-a7f1-59d5b241d07e: # Background Colour
     contentColumnType: string
     fieldGroup: null
     handle: backgroundColour
@@ -191,7 +159,58 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\Dropdown
-  c571c2f5-7883-445e-a71f-97a38cd766e9:
+  372957f7-c73e-49c6-9ab6-70c90bb186ae: # Background Image
+    contentColumnType: string
+    fieldGroup: null
+    handle: backgroundImage
+    instructions: ''
+    name: 'Background Image'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowedKinds:
+        - image
+      defaultUploadLocationSource: 'volume:244c8899-c0b5-46f0-b74e-f81a9af913b2' # Images
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      restrictFiles: '1'
+      selectionLabel: ''
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: true
+      singleUploadLocationSource: 'volume:244c8899-c0b5-46f0-b74e-f81a9af913b2' # Images
+      singleUploadLocationSubpath: ''
+      source: null
+      sources:
+        - 'volume:244c8899-c0b5-46f0-b74e-f81a9af913b2' # Images
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  c8bd6834-c4d0-4af4-8976-8f00d3cea145: # Text Light
+    contentColumnType: text
+    fieldGroup: null
+    handle: textLight
+    instructions: ''
+    name: 'Text Light'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  c571c2f5-7883-445e-a71f-97a38cd766e9: # Section Padding
     contentColumnType: string
     fieldGroup: null
     handle: padding
@@ -259,26 +278,7 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\Dropdown
-  c8bd6834-c4d0-4af4-8976-8f00d3cea145:
-    contentColumnType: text
-    fieldGroup: null
-    handle: textLight
-    instructions: ''
-    name: 'Text Light'
-    searchable: false
-    settings:
-      byteLimit: null
-      charLimit: null
-      code: ''
-      columnType: text
-      initialRows: '4'
-      multiline: ''
-      placeholder: ''
-      uiMode: normal
-    translationKeyFormat: null
-    translationMethod: none
-    type: craft\fields\PlainText
-  d121a4b9-4b61-41ff-9766-de259c12fbf2:
+  d121a4b9-4b61-41ff-9766-de259c12fbf2: # Section ID
     contentColumnType: text
     fieldGroup: null
     handle: sectionId

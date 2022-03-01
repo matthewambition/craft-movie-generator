@@ -13,7 +13,7 @@ return [
     '*' => [
         'defaultWeekStartDay' => 1,
         'omitScriptNameInUrls' => true,
-        'cpTrigger' => 'admin',
+        'cpTrigger' => 'binge',
         'securityKey' => getenv('SECURITY_KEY'),
         'useProjectConfigFile' => false,
         'doAnalytics' => false,

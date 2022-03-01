@@ -27,7 +27,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 38a113f2-a291-41e2-b9c2-44d10e17e002
+            fieldUid: 38a113f2-a291-41e2-b9c2-44d10e17e002 # Content Builder
             instructions: null
             label: null
             required: '0'
@@ -40,7 +40,7 @@ fieldLayouts:
 handle: elements
 hasTitleField: true
 name: Elements
-section: 9a284186-46b9-4202-8d9f-c01ffb5ed9a2
+section: 9a284186-46b9-4202-8d9f-c01ffb5ed9a2 # Elements
 sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null

@@ -1,68 +1,68 @@
-field: f3ffe775-7f4e-455c-a73a-45f44e0f4757
+field: f3ffe775-7f4e-455c-a73a-45f44e0f4757 # Section Content
 fieldLayouts:
   d891d1e1-3a38-4978-9d8c-b9d4216a5e32:
     tabs:
       -
         elements:
           -
-            fieldUid: a9047d74-32be-4779-9bf0-b70dd963efd7
+            fieldUid: a9047d74-32be-4779-9bf0-b70dd963efd7 # Column Content
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
           -
-            fieldUid: 2fddcf64-f09d-4783-8520-deecd7cd65d6
+            fieldUid: 2fddcf64-f09d-4783-8520-deecd7cd65d6 # Column Width
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
           -
-            fieldUid: 701a64b6-b19b-4a85-a182-e33ad045cfa3
+            fieldUid: 701a64b6-b19b-4a85-a182-e33ad045cfa3 # Column Padding
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
           -
-            fieldUid: edd35aaf-1568-45d5-8a6f-938e74370edf
+            fieldUid: edd35aaf-1568-45d5-8a6f-938e74370edf # Content Alignment
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
           -
-            fieldUid: 562b5f18-5a95-4564-90ff-6234b054abf4
+            fieldUid: 562b5f18-5a95-4564-90ff-6234b054abf4 # Background Colour
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
           -
-            fieldUid: 02ecde5d-58c5-4daf-8624-72e1fa8a93eb
+            fieldUid: 02ecde5d-58c5-4daf-8624-72e1fa8a93eb # Background Image
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
           -
-            fieldUid: ab65d7e0-3033-4346-945c-abb10f7511ae
+            fieldUid: ab65d7e0-3033-4346-945c-abb10f7511ae # Text Light
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
@@ -70,7 +70,7 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  02ecde5d-58c5-4daf-8624-72e1fa8a93eb:
+  02ecde5d-58c5-4daf-8624-72e1fa8a93eb: # Background Image
     contentColumnType: string
     fieldGroup: null
     handle: backgroundImage
@@ -81,7 +81,7 @@ fields:
       allowSelfRelations: false
       allowedKinds:
         - image
-      defaultUploadLocationSource: 'volume:244c8899-c0b5-46f0-b74e-f81a9af913b2'
+      defaultUploadLocationSource: 'volume:244c8899-c0b5-46f0-b74e-f81a9af913b2' # Images
       defaultUploadLocationSubpath: ''
       limit: '1'
       localizeRelations: false
@@ -90,11 +90,11 @@ fields:
       showSiteMenu: true
       showUnpermittedFiles: false
       showUnpermittedVolumes: true
-      singleUploadLocationSource: 'volume:244c8899-c0b5-46f0-b74e-f81a9af913b2'
+      singleUploadLocationSource: 'volume:244c8899-c0b5-46f0-b74e-f81a9af913b2' # Images
       singleUploadLocationSubpath: ''
       source: null
       sources:
-        - 'volume:244c8899-c0b5-46f0-b74e-f81a9af913b2'
+        - 'volume:244c8899-c0b5-46f0-b74e-f81a9af913b2' # Images
       targetSiteId: null
       useSingleFolder: false
       validateRelatedElements: false
@@ -102,7 +102,7 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Assets
-  2fddcf64-f09d-4783-8520-deecd7cd65d6:
+  2fddcf64-f09d-4783-8520-deecd7cd65d6: # Column Width
     contentColumnType: string
     fieldGroup: null
     handle: columnWidth
@@ -258,7 +258,7 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\Dropdown
-  562b5f18-5a95-4564-90ff-6234b054abf4:
+  562b5f18-5a95-4564-90ff-6234b054abf4: # Background Colour
     contentColumnType: string
     fieldGroup: null
     handle: backgroundColour
@@ -348,7 +348,7 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\Dropdown
-  701a64b6-b19b-4a85-a182-e33ad045cfa3:
+  701a64b6-b19b-4a85-a182-e33ad045cfa3: # Column Padding
     contentColumnType: string
     fieldGroup: null
     handle: columnPadding
@@ -394,7 +394,7 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\Dropdown
-  a9047d74-32be-4779-9bf0-b70dd963efd7:
+  a9047d74-32be-4779-9bf0-b70dd963efd7: # Column Content
     contentColumnType: text
     fieldGroup: null
     handle: columnContent
@@ -415,14 +415,14 @@ fields:
       removeEmptyTags: ''
       removeInlineStyles: ''
       removeNbsp: ''
-      showHtmlButtonForNonAdmins: true
+      showHtmlButtonForNonAdmins: '1'
       showUnpermittedFiles: false
       showUnpermittedVolumes: true
       uiMode: enlarged
     translationKeyFormat: null
     translationMethod: none
     type: craft\redactor\Field
-  ab65d7e0-3033-4346-945c-abb10f7511ae:
+  ab65d7e0-3033-4346-945c-abb10f7511ae: # Text Light
     contentColumnType: boolean
     fieldGroup: null
     handle: textLight
@@ -436,7 +436,7 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\Lightswitch
-  edd35aaf-1568-45d5-8a6f-938e74370edf:
+  edd35aaf-1568-45d5-8a6f-938e74370edf: # Content Alignment
     contentColumnType: string
     fieldGroup: null
     handle: contentAlignment

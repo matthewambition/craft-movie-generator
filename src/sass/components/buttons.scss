@@ -1,3 +1,29 @@
 // Global Button Styles
 // ******************************************************************************
 
+.btn {
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 300;
+  min-height: 46px;
+  letter-spacing: 0.8px;
+  padding: 10px 20px;
+  width: 100%;
+
+  @media only screen and (min-width: 768px) {
+    min-height: 44px;
+    max-width: 190px;
+  }
+
+  &.btn-primary {
+    border: none;
+
+    &:not(:disabled):not(.disabled):active:focus {
+      box-shadow: none;
+    }
+  }
+
+  &.disabled {
+    opacity: .5;
+  }
+}

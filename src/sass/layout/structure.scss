@@ -9,23 +9,54 @@
 
 // Force height to 100% to create sticky footer
 //
-html {
-  height: 100% !important;
-}
+// Global Structure Styles
+// ******************************************************************************
+body {
+  background-color: #f4f1fb;
+  height: 100%;
+  transition: .3s ease;
 
-body,
-.site-wrapper {
-  display: flex!important;
-  flex-direction: column!important;
-  height: 100%!important;
-}
+  .site-wrapper {
+    margin: 0 auto;
+    max-width: 100%;
 
-main {
-  section:first-of-type {
-    > .container,
-    > .container-fluid {
-      margin-top: 60px;
+    @media only screen and (min-width: 450px) {
+      max-width: 80%;
     }
+
+    @media only screen and (min-width: 768px) {
+      align-items: center;
+      display: flex;
+      height: 100%;
+      justify-content: center;
+      max-width: 90%;
+
+      .inner-site-wrapper {
+        max-width: 100%;
+
+        @media only screen and (max-height: 650px) {
+          padding-top: 50px;
+        }
+      }
+
+      @media only screen and (max-height: 650px) {
+        display: block;
+      }
+    }
+
+    @media only screen and (min-width: 992px) {
+      max-width: 1300px;
+      padding: 0 40px;
+    }
+
+    #inner-site-wrapper {
+      margin: 0 auto;
+    }
+  }
+
+  ::selection {
+    background-color: #cbb9ee;
+    color: inherit;
   }
 }
 

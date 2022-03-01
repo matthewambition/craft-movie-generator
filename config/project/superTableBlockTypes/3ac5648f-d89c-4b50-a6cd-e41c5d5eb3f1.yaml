@@ -1,23 +1,23 @@
-field: 3b59abce-3d4d-468b-8520-44b2f3db37d9
+field: 3b59abce-3d4d-468b-8520-44b2f3db37d9 # Section Content
 fieldLayouts:
   19617606-b585-4903-b9f3-c5e90615013b:
     tabs:
       -
         elements:
           -
-            fieldUid: 572c0ae0-d606-46a0-b420-737f8b63cd34
+            fieldUid: 572c0ae0-d606-46a0-b420-737f8b63cd34 # Embed URL
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
           -
-            fieldUid: 881d8083-6117-4f6f-bf60-096741cd45bc
+            fieldUid: 881d8083-6117-4f6f-bf60-096741cd45bc # Aspect Ratio
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
@@ -25,7 +25,7 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  572c0ae0-d606-46a0-b420-737f8b63cd34:
+  572c0ae0-d606-46a0-b420-737f8b63cd34: # Embed URL
     contentColumnType: text
     fieldGroup: null
     handle: embedUrl
@@ -44,7 +44,7 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  881d8083-6117-4f6f-bf60-096741cd45bc:
+  881d8083-6117-4f6f-bf60-096741cd45bc: # Aspect Ratio
     contentColumnType: string
     fieldGroup: null
     handle: aspectRatio
